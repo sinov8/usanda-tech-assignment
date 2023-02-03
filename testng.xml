@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+  <test name="Search for Flights">
+    
+      <classes>
+      <class name="test.flightsTest"/>
+      </classes>
+  </test> <!-- Test --> 
+<test name="Login as an agent">
+    
+      <classes>
+      <class name="test.LoginTest"/>
+      </classes>
+  </test>
+  <test name="Sign UP">
+    
+      <classes>
+      <class name="test.signUpTest"/>
+      </classes>
+  </test>
+</suite> <!-- Suite -->
